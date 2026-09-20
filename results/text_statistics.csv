@@ -1,0 +1,281 @@
+section,statistic,language,task,value,unit,note
+Linguistic Preliminaries,closed-class lemma types / lemma types,en_ewt,upos,0.011557545685586349,share,
+Linguistic Preliminaries,closed-class tokens / tokens,en_ewt,upos,0.38322822072035745,share,
+Linguistic Preliminaries,closed-class lemma types / lemma types,it_isdt,upos,0.014447300771208225,share,
+Linguistic Preliminaries,closed-class tokens / tokens,it_isdt,upos,0.34566573706258,share,
+Linguistic Preliminaries,closed-class lemma types / lemma types,pl_pdb,upos,0.012048192771084338,share,
+Linguistic Preliminaries,closed-class tokens / tokens,pl_pdb,upos,0.28350984850242444,share,
+Multilingual Encoders and XLM-R,subwords of 'Kraków',all,all,1.0,count,▁Kraków
+Multilingual Encoders and XLM-R,subwords of 'kraków',all,all,2.0,count,▁kra ków
+Tasks and Data,three most frequent UPOS tags / tokens,en_ewt,upos,0.4046849041082633,share,"NOUN, PUNCT, VERB"
+Tasks and Data,tokens of the least frequent UPOS tag,en_ewt,upos,329.0,count,X
+Tasks and Data,Sing / Number targets,en_ewt,number,0.7631603684903178,share,
+Tasks and Data,three most frequent UPOS tags / tokens,it_isdt,upos,0.47652717448062726,share,"NOUN, PUNCT, DET"
+Tasks and Data,tokens of the least frequent UPOS tag,it_isdt,upos,26.0,count,PART
+Tasks and Data,Sing / Number targets,it_isdt,number,0.6965917780286204,share,
+Tasks and Data,three most frequent UPOS tags / tokens,pl_pdb,upos,0.5330081432846902,share,"NOUN, PUNCT, VERB"
+Tasks and Data,tokens of the least frequent UPOS tag,pl_pdb,upos,21.0,count,SYM
+Tasks and Data,Sing / Number targets,pl_pdb,number,0.7350628747404522,share,
+Control Task and Selectivity,lemma types with a control label,en_ewt,upos,16526.0,count,
+Control Task and Selectivity,lemma types with a control label,en_ewt,number,6036.0,count,
+Control Task and Selectivity,lemma types with a control label,it_isdt,upos,19450.0,count,
+Control Task and Selectivity,lemma types with a control label,it_isdt,number,6361.0,count,
+Control Task and Selectivity,lemma types with a control label,pl_pdb,upos,28137.0,count,
+Control Task and Selectivity,lemma types with a control label,pl_pdb,number,11061.0,count,
+Representation Extraction,sentences whose rebuilt text differs from # text,en_ewt,all,1.0,count,NO-BREAK SPACE in # text vs SPACE
+Representation Extraction,targets whose span covers a differing character,en_ewt,all,0.0,count,
+Representation Extraction,sentences whose rebuilt text differs from # text,it_isdt,all,0.0,count,
+Representation Extraction,targets whose span covers a differing character,it_isdt,all,0.0,count,
+Representation Extraction,sentences whose rebuilt text differs from # text,pl_pdb,all,0.0,count,
+Representation Extraction,targets whose span covers a differing character,pl_pdb,all,0.0,count,
+Data Volumes,target vectors extracted,all,all,851345.0,count,
+Data Volumes,layer-8 representation cache (GB),all,all,2.61533184,GB,float32 vectors of 768 dimensions
+Data Volumes,target vectors / all target vectors,en_ewt,all,0.2912896651768672,share,
+Data Volumes,Number targets / eligible tokens,en_ewt,number,0.17158894785231543,share,
+Data Volumes,target vectors / all target vectors,it_isdt,all,0.3036759480586601,share,
+Data Volumes,Number targets / eligible tokens,it_isdt,number,0.21245256891770103,share,
+Data Volumes,target vectors / all target vectors,pl_pdb,all,0.4050343867644727,share,
+Data Volumes,Number targets / eligible tokens,pl_pdb,number,0.24860798552304944,share,
+Data Volumes,|P| = N - (|T| + s),en_ewt,upos,1.0,flag,
+Data Volumes,held-out occurrences (|T| + s) / N,en_ewt,upos,0.4079673209994032,share,
+Data Volumes,|P| / s,en_ewt,upos,2.848547758095497,ratio,
+Data Volumes,|T| / N,en_ewt,upos,0.20013065148313627,share,
+Data Volumes,single-occurrence lemmata / lemma types,en_ewt,upos,0.4776715478639719,share,also the Introduction's 'around half' and Threats to Validity
+Data Volumes,single-occurrence lemmata / tokens,en_ewt,upos,0.03183218542832718,share,
+Data Volumes,|H| / lemma types with two or more occurrences,en_ewt,upos,0.5543327154772938,share,
+Data Volumes,"test occurrences per held-out lemma, mean",en_ewt,upos,10.371995820271682,value,also Threats to Validity
+Data Volumes,"test occurrences per held-out lemma, median",en_ewt,upos,2.0,value,
+Data Volumes,held-out lemmata with one test occurrence / |H|,en_ewt,upos,0.45015673981191223,share,
+Data Volumes,test occurrences of the top 1% of held-out lemmata / |T|,en_ewt,upos,0.4695144066089059,share,top 48 lemmata
+Data Volumes,largest |reserve - core| label share,en_ewt,upos,0.41112716318587456,pp,
+Data Volumes,projected |T| / N before the last held-out lemma was added,en_ewt,upos,0.199590302756585,share,last lemma added: then
+Data Volumes,test occurrences of the last held-out lemma added / N,en_ewt,upos,0.0005403487265512847,share,then
+Data Volumes,|P| = N - (|T| + s),en_ewt,number,1.0,flag,
+Data Volumes,held-out occurrences (|T| + s) / N,en_ewt,number,0.4162201541643166,share,
+Data Volumes,|P| / s,en_ewt,number,2.6998152374741875,ratio,
+Data Volumes,|T| / N,en_ewt,number,0.19999059973679262,share,
+Data Volumes,single-occurrence lemmata / lemma types,en_ewt,number,0.4146785950960901,share,also the Introduction's 'around half' and Threats to Validity
+Data Volumes,single-occurrence lemmata / tokens,en_ewt,number,0.058822147020116566,share,
+Data Volumes,|H| / lemma types with two or more occurrences,en_ewt,number,0.4800452872912539,share,
+Data Volumes,"test occurrences per held-out lemma, mean",en_ewt,number,5.017688679245283,value,also Threats to Validity
+Data Volumes,"test occurrences per held-out lemma, median",en_ewt,number,2.0,value,
+Data Volumes,held-out lemmata with one test occurrence / |H|,en_ewt,number,0.4227594339622642,share,
+Data Volumes,test occurrences of the top 1% of held-out lemmata / |T|,en_ewt,number,0.127262044653349,share,top 17 lemmata
+Data Volumes,largest |reserve - core| label share,en_ewt,number,0.20076837528224534,pp,
+Data Volumes,smallest class count in T / min_per_class_number,en_ewt,number,20.33,ratio,
+Data Volumes,both classes in both training sets,en_ewt,number,1.0,flag,
+Data Volumes,projected |T| / N before the last held-out lemma was added,en_ewt,number,0.19992009776273736,share,last lemma added: second
+Data Volumes,test occurrences of the last held-out lemma added / N,en_ewt,number,7.050197405527355e-05,share,second
+Data Volumes,|P| = N - (|T| + s),it_isdt,upos,1.0,flag,
+Data Volumes,held-out occurrences (|T| + s) / N,it_isdt,upos,0.4049192946355011,share,
+Data Volumes,|P| / s,it_isdt,upos,2.90410752038659,ratio,
+Data Volumes,|T| / N,it_isdt,upos,0.2000092831476059,share,
+Data Volumes,single-occurrence lemmata / lemma types,it_isdt,upos,0.482827763496144,share,also the Introduction's 'around half' and Threats to Validity
+Data Volumes,single-occurrence lemmata / tokens,it_isdt,upos,0.036324182986311224,share,
+Data Volumes,|H| / lemma types with two or more occurrences,it_isdt,upos,0.3267720449348842,share,
+Data Volumes,"test occurrences per held-out lemma, mean",it_isdt,upos,15.731365987222391,value,also Threats to Validity
+Data Volumes,"test occurrences per held-out lemma, median",it_isdt,upos,2.0,value,
+Data Volumes,held-out lemmata with one test occurrence / |H|,it_isdt,upos,0.4396105871615455,share,
+Data Volumes,test occurrences of the top 1% of held-out lemmata / |T|,it_isdt,upos,0.6582026339708755,share,top 33 lemmata
+Data Volumes,largest |reserve - core| label share,it_isdt,upos,0.27993483654307344,pp,
+Data Volumes,projected |T| / N before the last held-out lemma was added,it_isdt,upos,0.199982207300422,share,last lemma added: scandalo
+Data Volumes,test occurrences of the last held-out lemma added / N,it_isdt,upos,2.7075847183918494e-05,share,scandalo
+Data Volumes,|P| = N - (|T| + s),it_isdt,number,1.0,flag,
+Data Volumes,held-out occurrences (|T| + s) / N,it_isdt,number,0.4121363288788552,share,
+Data Volumes,|P| / s,it_isdt,number,2.7720638736263736,ratio,
+Data Volumes,|T| / N,it_isdt,number,0.20006918399300877,share,
+Data Volumes,single-occurrence lemmata / lemma types,it_isdt,number,0.41502908347744066,share,also the Introduction's 'around half' and Threats to Validity
+Data Volumes,single-occurrence lemmata / tokens,it_isdt,number,0.04806466882714926,share,
+Data Volumes,|H| / lemma types with two or more occurrences,it_isdt,number,0.43966675624832036,share,
+Data Volumes,"test occurrences per held-out lemma, mean",it_isdt,number,6.716992665036675,value,also Threats to Validity
+Data Volumes,"test occurrences per held-out lemma, median",it_isdt,number,2.0,value,
+Data Volumes,held-out lemmata with one test occurrence / |H|,it_isdt,number,0.3759168704156479,share,
+Data Volumes,test occurrences of the top 1% of held-out lemmata / |T|,it_isdt,number,0.1607971607971608,share,top 17 lemmata
+Data Volumes,largest |reserve - core| label share,it_isdt,number,0.3601618271752982,pp,
+Data Volumes,smallest class count in T / min_per_class_number,it_isdt,number,34.72,ratio,
+Data Volumes,both classes in both training sets,it_isdt,number,1.0,flag,
+Data Volumes,projected |T| / N before the last held-out lemma was added,it_isdt,number,0.1999599461093107,share,last lemma added: coda
+Data Volumes,test occurrences of the last held-out lemma added / N,it_isdt,number,0.00010923788369806649,share,coda
+Data Volumes,|P| = N - (|T| + s),pl_pdb,upos,1.0,flag,
+Data Volumes,held-out occurrences (|T| + s) / N,pl_pdb,upos,0.4301469735285247,share,
+Data Volumes,|P| / s,pl_pdb,upos,2.6031874304488367,ratio,
+Data Volumes,|T| / N,pl_pdb,upos,0.21124109690740783,share,
+Data Volumes,single-occurrence lemmata / lemma types,pl_pdb,upos,0.5022568148700999,share,also the Introduction's 'around half' and Threats to Validity
+Data Volumes,single-occurrence lemmata / tokens,pl_pdb,upos,0.04098322622555275,share,
+Data Volumes,|H| / lemma types with two or more occurrences,pl_pdb,upos,0.4820421278114959,share,
+Data Volumes,"test occurrences per held-out lemma, mean",pl_pdb,upos,10.789660790993926,value,also Threats to Validity
+Data Volumes,"test occurrences per held-out lemma, median",pl_pdb,upos,2.0,value,
+Data Volumes,held-out lemmata with one test occurrence / |H|,pl_pdb,upos,0.4476373870537698,share,
+Data Volumes,test occurrences of the top 1% of held-out lemmata / |T|,pl_pdb,upos,0.48574291950961684,share,top 68 lemmata
+Data Volumes,largest |reserve - core| label share,pl_pdb,upos,0.23619059009631488,pp,
+Data Volumes,projected |T| / N before the last held-out lemma was added,pl_pdb,upos,0.1964016425770828,share,last lemma added: w
+Data Volumes,test occurrences of the last held-out lemma added / N,pl_pdb,upos,0.014839454330325035,share,w
+Data Volumes,|P| = N - (|T| + s),pl_pdb,number,1.0,flag,
+Data Volumes,held-out occurrences (|T| + s) / N,pl_pdb,number,0.4123953059748501,share,
+Data Volumes,|P| / s,pl_pdb,number,2.768051434223541,ratio,
+Data Volumes,|T| / N,pl_pdb,number,0.20011431770991298,share,
+Data Volumes,single-occurrence lemmata / lemma types,pl_pdb,number,0.4486032004339571,share,also the Introduction's 'around half' and Threats to Validity
+Data Volumes,single-occurrence lemmata / tokens,pl_pdb,number,0.057882089447775474,share,
+Data Volumes,|H| / lemma types with two or more occurrences,pl_pdb,number,0.43269388424331856,share,
+Data Volumes,"test occurrences per held-out lemma, mean",pl_pdb,number,6.500568397120121,value,also Threats to Validity
+Data Volumes,"test occurrences per held-out lemma, median",pl_pdb,number,2.0,value,
+Data Volumes,held-out lemmata with one test occurrence / |H|,pl_pdb,number,0.43425539977264116,share,
+Data Volumes,test occurrences of the top 1% of held-out lemmata / |T|,pl_pdb,number,0.21783736519965025,share,top 27 lemmata
+Data Volumes,largest |reserve - core| label share,pl_pdb,number,0.4661097776824774,pp,
+Data Volumes,smallest class count in T / min_per_class_number,pl_pdb,number,48.25,ratio,
+Data Volumes,both classes in both training sets,pl_pdb,number,1.0,flag,
+Data Volumes,projected |T| / N before the last held-out lemma was added,pl_pdb,number,0.19985768611623078,share,last lemma added: prokuratura
+Data Volumes,test occurrences of the last held-out lemma added / N,pl_pdb,number,0.0002566315936821968,share,prokuratura
+Primary Result: Seen/Unseen Gap,macro-F1 gap > accuracy gap,en_ewt,upos,1.0,flag,
+Primary Result: Seen/Unseen Gap,width of the accuracy-gap interval,en_ewt,upos,0.00556115252871249,value,
+Primary Result: Seen/Unseen Gap,b / c,en_ewt,upos,12.70632911392405,ratio,
+Primary Result: Seen/Unseen Gap,c / (b + c),en_ewt,upos,0.07295899519763575,share,
+Primary Result: Seen/Unseen Gap,(b + c) / |T|,en_ewt,upos,0.10908724561757002,share,
+Primary Result: Seen/Unseen Gap,accuracy gap = (b - c) / |T|,en_ewt,upos,1.0,flag,
+Primary Result: Seen/Unseen Gap,macro-F1 gap > accuracy gap,en_ewt,number,1.0,flag,
+Primary Result: Seen/Unseen Gap,width of the accuracy-gap interval,en_ewt,number,0.0045828437132785,value,
+Primary Result: Seen/Unseen Gap,b / c,en_ewt,number,2.3333333333333335,ratio,
+Primary Result: Seen/Unseen Gap,c / (b + c),en_ewt,number,0.3,share,
+Primary Result: Seen/Unseen Gap,(b + c) / |T|,en_ewt,number,0.011750881316098707,share,
+Primary Result: Seen/Unseen Gap,accuracy gap = (b - c) / |T|,en_ewt,number,1.0,flag,
+Primary Result: Seen/Unseen Gap,macro-F1 gap > accuracy gap,it_isdt,upos,1.0,flag,
+Primary Result: Seen/Unseen Gap,width of the accuracy-gap interval,it_isdt,upos,0.0062658338006924,value,
+Primary Result: Seen/Unseen Gap,b / c,it_isdt,upos,29.10236220472441,ratio,
+Primary Result: Seen/Unseen Gap,c / (b + c),it_isdt,upos,0.03321998430551923,share,
+Primary Result: Seen/Unseen Gap,(b + c) / |T|,it_isdt,upos,0.14786594209905432,share,
+Primary Result: Seen/Unseen Gap,accuracy gap = (b - c) / |T|,it_isdt,upos,1.0,flag,
+Primary Result: Seen/Unseen Gap,macro-F1 gap > accuracy gap,it_isdt,number,1.0,flag,
+Primary Result: Seen/Unseen Gap,width of the accuracy-gap interval,it_isdt,number,0.0033670033670033,value,
+Primary Result: Seen/Unseen Gap,b / c,it_isdt,number,3.6842105263157894,ratio,
+Primary Result: Seen/Unseen Gap,c / (b + c),it_isdt,number,0.21348314606741572,share,
+Primary Result: Seen/Unseen Gap,(b + c) / |T|,it_isdt,number,0.008099008099008098,share,
+Primary Result: Seen/Unseen Gap,accuracy gap = (b - c) / |T|,it_isdt,number,1.0,flag,
+Primary Result: Seen/Unseen Gap,macro-F1 gap > accuracy gap,pl_pdb,upos,1.0,flag,
+Primary Result: Seen/Unseen Gap,width of the accuracy-gap interval,pl_pdb,upos,0.005175999780343499,value,
+Primary Result: Seen/Unseen Gap,b / c,pl_pdb,upos,28.886363636363637,ratio,
+Primary Result: Seen/Unseen Gap,c / (b + c),pl_pdb,upos,0.033460076045627375,share,
+Primary Result: Seen/Unseen Gap,(b + c) / |T|,pl_pdb,upos,0.1444241567249214,share,
+Primary Result: Seen/Unseen Gap,accuracy gap = (b - c) / |T|,pl_pdb,upos,1.0,flag,
+Primary Result: Seen/Unseen Gap,macro-F1 gap > accuracy gap,pl_pdb,number,1.0,flag,
+Primary Result: Seen/Unseen Gap,width of the accuracy-gap interval,pl_pdb,number,0.0028563101136695004,value,
+Primary Result: Seen/Unseen Gap,b / c,pl_pdb,number,2.306122448979592,ratio,
+Primary Result: Seen/Unseen Gap,c / (b + c),pl_pdb,number,0.30246913580246915,share,
+Primary Result: Seen/Unseen Gap,(b + c) / |T|,pl_pdb,number,0.009443310988050131,share,
+Primary Result: Seen/Unseen Gap,accuracy gap = (b - c) / |T|,pl_pdb,number,1.0,flag,
+Primary Result: Seen/Unseen Gap,SYM share of the macro-F1 gap,pl_pdb,upos,0.2081773260768295,share,
+Selectivity,control accuracy A / control floor,en_ewt,upos,3.5181644359464634,ratio,
+Selectivity,UPOS tags realized among the control labels on T,en_ewt,upos,17.0,count,footnote 9
+Selectivity,control accuracy B < control floor,en_ewt,upos,1.0,flag,
+Selectivity,control macro-F1 B > its floor,en_ewt,upos,1.0,flag,
+Selectivity,"fall in control accuracy / fall in task accuracy, A to B",en_ewt,upos,5.661115916955014,ratio,
+Selectivity,accuracy selectivity B - A,en_ewt,upos,0.4342736248236954,value,
+Selectivity,control accuracy A - control floor,en_ewt,number,0.006345475910693343,value,
+Selectivity,control macro-F1 A > its floor,en_ewt,number,1.0,flag,
+Selectivity,control accuracy B < control floor,en_ewt,number,1.0,flag,
+Selectivity,control macro-F1 B > its floor,en_ewt,number,1.0,flag,
+Selectivity,"fall in control accuracy / fall in task accuracy, A to B",en_ewt,number,31.199999999999022,ratio,
+Selectivity,accuracy selectivity B - A,en_ewt,number,0.14195064629847248,value,
+Selectivity,control accuracy A / control floor,it_isdt,upos,2.609480812641084,ratio,
+Selectivity,UPOS tags realized among the control labels on T,it_isdt,upos,16.0,count,footnote 9
+Selectivity,control accuracy B < control floor,it_isdt,upos,1.0,flag,
+Selectivity,control macro-F1 B > its floor,it_isdt,upos,1.0,flag,
+Selectivity,"fall in control accuracy / fall in task accuracy, A to B",it_isdt,upos,4.776267862146264,ratio,
+Selectivity,accuracy selectivity B - A,it_isdt,upos,0.5212825620298207,value,
+Selectivity,control accuracy A - control floor,it_isdt,number,0.06078806078806076,value,
+Selectivity,control macro-F1 A > its floor,it_isdt,number,1.0,flag,
+Selectivity,control accuracy B < control floor,it_isdt,number,1.0,flag,
+Selectivity,control macro-F1 B > its floor,it_isdt,number,1.0,flag,
+Selectivity,"fall in control accuracy / fall in task accuracy, A to B",it_isdt,number,31.058823529410635,ratio,
+Selectivity,accuracy selectivity B - A,it_isdt,number,0.1395031395031394,value,
+Selectivity,control accuracy A / control floor,pl_pdb,upos,2.6510231589266025,ratio,
+Selectivity,UPOS tags realized among the control labels on T,pl_pdb,upos,16.0,count,footnote 9
+Selectivity,control accuracy B < control floor,pl_pdb,upos,1.0,flag,
+Selectivity,control macro-F1 B > its floor,pl_pdb,upos,1.0,flag,
+Selectivity,"fall in control accuracy / fall in task accuracy, A to B",pl_pdb,upos,3.3919111654441734,ratio,
+Selectivity,accuracy selectivity B - A,pl_pdb,upos,0.3223322030175313,value,
+Selectivity,control accuracy A - control floor,pl_pdb,number,0.015797143689886273,value,
+Selectivity,control macro-F1 A > its floor,pl_pdb,number,1.0,flag,
+Selectivity,control accuracy B < control floor,pl_pdb,number,1.0,flag,
+Selectivity,control macro-F1 B > its floor,pl_pdb,number,1.0,flag,
+Selectivity,"fall in control accuracy / fall in task accuracy, A to B",pl_pdb,number,19.546874999999815,ratio,
+Selectivity,accuracy selectivity B - A,pl_pdb,number,0.06919265520256482,value,
+Fragmentation,error odds ratio per SD of n_subwords,en_ewt,upos,1.1206124180155967,ratio,
+Fragmentation,char_length coefficient negative and larger than n_subwords in size,en_ewt,upos,1.0,flag,
+Fragmentation,error odds ratio per SD of n_subwords,en_ewt,number,0.8815844999561675,ratio,1/OR = 1.13
+Fragmentation,char_length coefficient negative and larger than n_subwords in size,en_ewt,number,1.0,flag,
+Fragmentation,error odds ratio per SD of n_subwords,it_isdt,upos,1.0120275166085217,ratio,
+Fragmentation,char_length coefficient negative and larger than n_subwords in size,it_isdt,upos,1.0,flag,
+Fragmentation,error odds ratio per SD of n_subwords,it_isdt,number,3.782094024474813,ratio,
+Fragmentation,char_length coefficient negative and larger than n_subwords in size,it_isdt,number,1.0,flag,
+Fragmentation,error odds ratio per SD of n_subwords,pl_pdb,upos,0.6650893228068167,ratio,1/OR = 1.50
+Fragmentation,char_length coefficient negative and larger than n_subwords in size,pl_pdb,upos,1.0,flag,
+Fragmentation,error odds ratio per SD of n_subwords,pl_pdb,number,0.8939123587147205,ratio,1/OR = 1.12
+Fragmentation,char_length coefficient negative and larger than n_subwords in size,pl_pdb,number,1.0,flag,
+Number Scores Near Ceiling,(accuracy B - floor) / (1 - floor),en_ewt,number,0.9434333497294635,share,
+Number Scores Near Ceiling,accuracy gap / (1 - floor),en_ewt,number,0.01967535661583929,share,
+Number Scores Near Ceiling,F1 of the minority class in condition B,en_ewt,number,0.9714993804213136,value,Plur
+Number Scores Near Ceiling,(accuracy B - floor) / (1 - floor),it_isdt,number,0.9723502304147464,share,
+Number Scores Near Ceiling,accuracy gap / (1 - floor),it_isdt,number,0.014688940092166428,share,
+Number Scores Near Ceiling,F1 of the minority class in condition B,it_isdt,number,0.9862424763542562,value,Plur
+Number Scores Near Ceiling,(accuracy B - floor) / (1 - floor),pl_pdb,number,0.9477720207253887,share,
+Number Scores Near Ceiling,accuracy gap / (1 - floor),pl_pdb,number,0.013264248704663334,share,
+Number Scores Near Ceiling,F1 of the minority class in condition B,pl_pdb,number,0.9737390579408086,value,Plur
+Inconclusive Fragmentation Result,both continuous controls negative,en_ewt,upos,1.0,flag,
+Inconclusive Fragmentation Result,both continuous controls negative,it_isdt,upos,1.0,flag,
+Inconclusive Fragmentation Result,both continuous controls negative,pl_pdb,upos,1.0,flag,
+Inconclusive Fragmentation Result,largest control magnitudes of the UPOS cells,pl_pdb,upos,1.0,flag,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,en_ewt,upos,0.2077193970600165,value,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,en_ewt,number,-0.19315604388302274,value,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,it_isdt,upos,0.02283712584932728,value,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,it_isdt,number,1.84525281455318,value,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,pl_pdb,upos,-0.46675485202958533,value,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,pl_pdb,number,-0.11610466972482056,value,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,pooled,upos,-0.2750126416971169,value,
+Inconclusive Fragmentation Result,n_subwords log-odds per subword,pooled,number,0.20521744905485426,value,
+Threats to Validity,condition-B lemma types absent from condition A / condition-B lemma types,en_ewt,upos,0.25585554893109613,share,
+Threats to Validity,single-occurrence lemmata among them,en_ewt,upos,0.9380825565912118,share,
+Threats to Validity,lemma types of the PART test occurrences,en_ewt,upos,1.0,count,not
+Threats to Validity,PART tokens in condition-A training,en_ewt,upos,3157.0,count,
+Threats to Validity,PART tokens in condition-B training,en_ewt,upos,3999.0,count,
+Threats to Validity,condition-B lemma types absent from condition A / condition-B lemma types,en_ewt,number,0.2359447004608295,share,
+Threats to Validity,single-occurrence lemmata among them,en_ewt,number,0.9140625,share,
+Threats to Validity,condition-B lemma types absent from condition A / condition-B lemma types,it_isdt,upos,0.21345047330322342,share,
+Threats to Validity,single-occurrence lemmata among them,it_isdt,upos,0.9084057971014493,share,
+Threats to Validity,condition-B lemma types absent from condition A / condition-B lemma types,it_isdt,number,0.2217989417989418,share,
+Threats to Validity,single-occurrence lemmata among them,it_isdt,number,0.9198473282442748,share,
+Threats to Validity,condition-B lemma types absent from condition A / condition-B lemma types,pl_pdb,upos,0.2702702702702703,share,
+Threats to Validity,single-occurrence lemmata among them,pl_pdb,upos,0.9321799307958477,share,
+Threats to Validity,ADP share of T,pl_pdb,upos,0.22361032934748287,share,
+Threats to Validity,ADP share of the seen block S,pl_pdb,upos,0.2159398018123046,share,
+Threats to Validity,ADP share of condition-A training,pl_pdb,upos,0.09745087761260872,share,
+Threats to Validity,ADP share of condition-B training,pl_pdb,upos,0.023241848559025745,share,
+Threats to Validity,condition-B lemma types absent from condition A / condition-B lemma types,pl_pdb,number,0.22215625742104014,share,
+Threats to Validity,single-occurrence lemmata among them,pl_pdb,number,0.9230358097274185,share,
+Threats to Validity,layer 4: gap positive on both metrics,en_ewt,upos,1.0,flag,
+Threats to Validity,layer 4: condition-B macro-F1 below layer 8,en_ewt,upos,1.0,flag,
+Threats to Validity,layer 11: gap positive on both metrics,en_ewt,upos,1.0,flag,
+Threats to Validity,layer 11: condition-B macro-F1 below layer 8,en_ewt,upos,1.0,flag,
+Threats to Validity,layer 4: gap positive on both metrics,en_ewt,number,1.0,flag,
+Threats to Validity,layer 11: gap positive on both metrics,en_ewt,number,1.0,flag,
+Threats to Validity,layer 4: gap positive on both metrics,it_isdt,upos,1.0,flag,
+Threats to Validity,layer 4: condition-B macro-F1 below layer 8,it_isdt,upos,1.0,flag,
+Threats to Validity,layer 11: gap positive on both metrics,it_isdt,upos,1.0,flag,
+Threats to Validity,layer 11: condition-B macro-F1 below layer 8,it_isdt,upos,1.0,flag,
+Threats to Validity,layer 4: gap positive on both metrics,it_isdt,number,1.0,flag,
+Threats to Validity,layer 11: gap positive on both metrics,it_isdt,number,1.0,flag,
+Threats to Validity,layer 4: gap positive on both metrics,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 4: condition-B macro-F1 below layer 8,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 4: macro-F1 gap narrower than at layer 8,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 4: condition-A macro-F1 below layer 8,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 11: gap positive on both metrics,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 11: condition-B macro-F1 below layer 8,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 11: macro-F1 gap narrower than at layer 8,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 11: condition-A macro-F1 below layer 8,pl_pdb,upos,1.0,flag,
+Threats to Validity,layer 4: gap positive on both metrics,pl_pdb,number,1.0,flag,
+Threats to Validity,layer 11: gap positive on both metrics,pl_pdb,number,1.0,flag,
+Threats to Validity,MLP macro-F1 below the linear probe in both conditions,en_ewt,upos,0.0,flag,footnote 10
+Threats to Validity,MLP macro-F1 below the linear probe in both conditions,en_ewt,number,0.0,flag,footnote 10
+Threats to Validity,MLP macro-F1 below the linear probe in both conditions,it_isdt,upos,1.0,flag,footnote 10
+Threats to Validity,MLP macro-F1 below the linear probe in both conditions,it_isdt,number,0.0,flag,footnote 10
+Threats to Validity,MLP macro-F1 below the linear probe in both conditions,pl_pdb,upos,0.0,flag,footnote 10
+Threats to Validity,MLP macro-F1 below the linear probe in both conditions,pl_pdb,number,0.0,flag,footnote 10

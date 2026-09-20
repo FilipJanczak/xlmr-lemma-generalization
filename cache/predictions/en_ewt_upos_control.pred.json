@@ -1,0 +1,38 @@
+{
+  "params": {
+    "model_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "layer_index": 8,
+    "split_seed": 2032749166775456577,
+    "control_seed": 5370867820586606898,
+    "probe": {
+      "penalty": "l2",
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "class_weight": null,
+      "random_state": 42
+    }
+  },
+  "summary": {
+    "task": "upos",
+    "T": 49630,
+    "conditions": {
+      "A": {
+        "n_iter": 189,
+        "converged": true,
+        "control": {
+          "accuracy": 0.6302639532540802,
+          "macro_f1": 0.5448828252633825
+        }
+      },
+      "B": {
+        "n_iter": 189,
+        "converged": true,
+        "control": {
+          "accuracy": 0.10282087447108604,
+          "macro_f1": 0.05775671576165499
+        }
+      }
+    }
+  }
+}

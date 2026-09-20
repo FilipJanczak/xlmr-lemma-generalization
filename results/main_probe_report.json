@@ -1,0 +1,176 @@
+{
+  "en_ewt/upos": {
+    "task": "upos",
+    "T": 49630,
+    "conditions": {
+      "A": {
+        "n_train": 146817,
+        "n_iter": 106,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9592383638928068,
+          "macro_f1": 0.919212853544709
+        }
+      },
+      "B": {
+        "n_train": 146817,
+        "n_iter": 88,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.8660689099335079,
+          "macro_f1": 0.677385213261955
+        }
+      }
+    },
+    "majority_test": {
+      "label": "NOUN",
+      "accuracy": 0.21043723554301833,
+      "macro_f1": 0.020453205752121405
+    }
+  },
+  "en_ewt/number": {
+    "task": "number",
+    "T": 8510,
+    "conditions": {
+      "A": {
+        "n_train": 24841,
+        "n_iter": 28,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9911868390129259,
+          "macro_f1": 0.9878349813939542
+        }
+      },
+      "B": {
+        "n_train": 24841,
+        "n_iter": 28,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9864864864864865,
+          "macro_f1": 0.9813215038417695
+        }
+      }
+    },
+    "majority_test": {
+      "label": "Sing",
+      "accuracy": 0.7611045828437133,
+      "macro_f1": 0.43217455127777404
+    }
+  },
+  "it_isdt/upos": {
+    "task": "upos",
+    "T": 51709,
+    "conditions": {
+      "A": {
+        "n_train": 153848,
+        "n_iter": 143,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9769479200912801,
+          "macro_f1": 0.859969708385587
+        }
+      },
+      "B": {
+        "n_train": 153848,
+        "n_iter": 146,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.8389061865439286,
+          "macro_f1": 0.6825533591798919
+        }
+      }
+    },
+    "majority_test": {
+      "label": "DET",
+      "accuracy": 0.2028853777872324,
+      "macro_f1": 0.021083199356913183
+    }
+  },
+  "it_isdt/number": {
+    "task": "number",
+    "T": 10989,
+    "conditions": {
+      "A": {
+        "n_train": 32289,
+        "n_iter": 20,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9959049959049959,
+          "macro_f1": 0.9952598753077035
+        }
+      },
+      "B": {
+        "n_train": 32289,
+        "n_iter": 19,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9912639912639912,
+          "macro_f1": 0.9899212381771281
+        }
+      }
+    },
+    "majority_test": {
+      "label": "Sing",
+      "accuracy": 0.684047684047684,
+      "macro_f1": 0.40619258618826326
+    }
+  },
+  "pl_pdb/upos": {
+    "task": "upos",
+    "T": 72841,
+    "conditions": {
+      "A": {
+        "n_train": 196499,
+        "n_iter": 96,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9812742823409892,
+          "macro_f1": 0.9046307433785787
+        }
+      },
+      "B": {
+        "n_train": 196499,
+        "n_iter": 90,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.8465150121497508,
+          "macro_f1": 0.6220662080359765
+        }
+      }
+    },
+    "majority_test": {
+      "label": "NOUN",
+      "accuracy": 0.28379621367087215,
+      "macro_f1": 0.026007079229625828
+    }
+  },
+  "pl_pdb/number": {
+    "task": "number",
+    "T": 17155,
+    "conditions": {
+      "A": {
+        "n_train": 50373,
+        "n_iter": 38,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.989041095890411,
+          "macro_f1": 0.9864163076347263
+        }
+      },
+      "B": {
+        "n_train": 50373,
+        "n_iter": 35,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9853104051296998,
+          "macro_f1": 0.981771204134279
+        }
+      }
+    },
+    "majority_test": {
+      "label": "Sing",
+      "accuracy": 0.71874089186826,
+      "macro_f1": 0.41817873494997454
+    }
+  }
+}

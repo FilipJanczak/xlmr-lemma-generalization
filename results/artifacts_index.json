@@ -1,0 +1,88 @@
+{
+  "config": "config.json",
+  "run_manifest": "results/run_manifest.json",
+  "reports_json": [
+    "results/artifacts_index.json",
+    "results/extraction_report.json",
+    "results/feasibility_report.json",
+    "results/inventory_report.json",
+    "results/main_probe_report.json",
+    "results/run_manifest.json",
+    "results/selectivity_report.json",
+    "results/split_report.json"
+  ],
+  "tables_csv": [
+    "results/error_analysis_coefficients.csv",
+    "results/error_analysis_model_size.csv",
+    "results/error_analysis_pooled.csv",
+    "results/error_analysis_standardization.csv",
+    "results/error_analysis_vif.csv",
+    "results/extension_layer_sweep.csv",
+    "results/extension_mlp_probe.csv",
+    "results/extension_summary.csv",
+    "results/form_overlap.csv",
+    "results/gap_table.csv",
+    "results/h_sensitivity_leave_one_out.csv",
+    "results/h_sensitivity_summary.csv",
+    "results/main_results.csv",
+    "results/mcnemar_table.csv",
+    "results/open_closed_gap.csv",
+    "results/per_class_f1.csv",
+    "results/per_class_f1_support_check.csv",
+    "results/text_statistics.csv"
+  ],
+  "figures": [
+    "results/figures/accuracy_A_vs_B.png",
+    "results/figures/fig3_1_split_construction.png",
+    "results/figures/fig5_1_per_class_f1_drop.png",
+    "results/figures/fig5_2_task_vs_control.png",
+    "results/figures/gap_ci_accuracy.png",
+    "results/figures/gap_ci_macro_f1.png",
+    "results/figures/macro_f1_A_vs_B.png",
+    "results/figures/selectivity_accuracy.png",
+    "results/figures/selectivity_macro_f1.png"
+  ],
+  "representation_cache": {
+    "in_repository": [
+      "cache/representations/en_ewt.marker.json",
+      "cache/representations/en_ewt_meta.parquet",
+      "cache/representations/it_isdt.marker.json",
+      "cache/representations/it_isdt_meta.parquet",
+      "cache/representations/pl_pdb.marker.json",
+      "cache/representations/pl_pdb_meta.parquet"
+    ],
+    "local_only": [
+      "cache/representations/en_ewt_layer11.npy",
+      "cache/representations/en_ewt_layer4.npy",
+      "cache/representations/en_ewt_layer8.npy",
+      "cache/representations/it_isdt_layer11.npy",
+      "cache/representations/it_isdt_layer4.npy",
+      "cache/representations/it_isdt_layer8.npy",
+      "cache/representations/pl_pdb_layer11.npy",
+      "cache/representations/pl_pdb_layer4.npy",
+      "cache/representations/pl_pdb_layer8.npy"
+    ]
+  },
+  "frozen_splits": [
+    "cache/splits/en_ewt_number.parquet",
+    "cache/splits/en_ewt_upos.parquet",
+    "cache/splits/it_isdt_number.parquet",
+    "cache/splits/it_isdt_upos.parquet",
+    "cache/splits/pl_pdb_number.parquet",
+    "cache/splits/pl_pdb_upos.parquet"
+  ],
+  "cached_predictions": [
+    "cache/predictions/en_ewt_number.parquet",
+    "cache/predictions/en_ewt_number_control.parquet",
+    "cache/predictions/en_ewt_upos.parquet",
+    "cache/predictions/en_ewt_upos_control.parquet",
+    "cache/predictions/it_isdt_number.parquet",
+    "cache/predictions/it_isdt_number_control.parquet",
+    "cache/predictions/it_isdt_upos.parquet",
+    "cache/predictions/it_isdt_upos_control.parquet",
+    "cache/predictions/pl_pdb_number.parquet",
+    "cache/predictions/pl_pdb_number_control.parquet",
+    "cache/predictions/pl_pdb_upos.parquet",
+    "cache/predictions/pl_pdb_upos_control.parquet"
+  ]
+}

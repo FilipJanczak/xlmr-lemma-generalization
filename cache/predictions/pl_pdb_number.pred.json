@@ -1,0 +1,44 @@
+{
+  "params": {
+    "model_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "layer_index": 8,
+    "split_seed": 785635171070969660,
+    "probe": {
+      "penalty": "l2",
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "class_weight": null,
+      "random_state": 42
+    }
+  },
+  "summary": {
+    "task": "number",
+    "T": 17155,
+    "conditions": {
+      "A": {
+        "n_train": 50373,
+        "n_iter": 38,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.989041095890411,
+          "macro_f1": 0.9864163076347263
+        }
+      },
+      "B": {
+        "n_train": 50373,
+        "n_iter": 35,
+        "converged": true,
+        "probe": {
+          "accuracy": 0.9853104051296998,
+          "macro_f1": 0.981771204134279
+        }
+      }
+    },
+    "majority_test": {
+      "label": "Sing",
+      "accuracy": 0.71874089186826,
+      "macro_f1": 0.41817873494997454
+    }
+  }
+}

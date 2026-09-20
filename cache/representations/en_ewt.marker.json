@@ -1,0 +1,11 @@
+{
+  "model_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "layer_index": 8,
+  "n_rows": 247988,
+  "n_targets": 247988,
+  "n_sentences": 16621,
+  "dropped_zero_subword": 0,
+  "dropped_examples": [],
+  "text_metadata_mismatches": 1,
+  "elapsed_s": 513.7
+}

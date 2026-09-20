@@ -1,0 +1,40 @@
+{
+  "params": {
+    "seed": 1860865313893576106,
+    "test_fraction_target": 0.2,
+    "min_heldout_lemmas": 50,
+    "per_lemma_test_seen": [
+      0.5,
+      0.5
+    ],
+    "size_matching": "tight"
+  },
+  "summary": {
+    "N": 42552,
+    "target_T": 8510,
+    "n_H_lemmas": 1696,
+    "n_B_lemmas": 4340,
+    "T": 8510,
+    "S": 9201,
+    "P": 24841,
+    "K": 15640,
+    "R": 9201,
+    "T_fraction": 0.2,
+    "train_A": 24841,
+    "train_B": 24841,
+    "T_by_class": {
+      "Plur": 2033,
+      "Sing": 6477
+    },
+    "train_A_by_class": {
+      "Plur": 5881,
+      "Sing": 18960
+    },
+    "train_B_by_class": {
+      "Plur": 5811,
+      "Sing": 19030
+    },
+    "contributing_H_lemmas": 1696,
+    "trainB_lemmas_in_H": 0
+  }
+}

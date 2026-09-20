@@ -1,0 +1,56 @@
+{
+  "en_ewt": {
+    "model_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "layer_index": 8,
+    "n_rows": 247988,
+    "n_targets": 247988,
+    "n_sentences": 16621,
+    "dropped_zero_subword": 0,
+    "dropped_examples": [],
+    "text_metadata_mismatches": 1,
+    "elapsed_s": 513.7,
+    "n_subwords": {
+      "mean": 1.2129094956207558,
+      "pct_single_subword": 85.5416391115699,
+      "p95": 2.0,
+      "max": 305,
+      "max_form": "http://www.google.com/search?hl=en&rlz=1G1GGLQ_ENUS359&q=gunther+uecker+biography&gs_sm=c&gs_upl=484l484l0l5093l1l1l0l0l0l0l328l328l3-1l1l0&um=1&ie=UTF-8&tbm=isch&source=og&sa=N&tab=wi&biw=1221&bih=756&sei=XVG5TqrrGoXK2AXG0ry-Bw#um=1&hl=en&rlz=1G1GGLQ_ENUS359&tbm=isch&sa=1&q=gunther+uecker+artist&pbx=1&oq=gunther+uecker+&aq=1S&aqi=g1g-S3&aql=&gs_sm=c&gs_upl=10219l10219l0l13797l1l1l0l0l0l0l125l125l0.1l1l0&bav=on.2,or.r_gc.r_pw.,cf.osb&fp=13ddcdc64cbf5fd&biw=1221&bih=756"
+    }
+  },
+  "it_isdt": {
+    "model_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "layer_index": 8,
+    "n_rows": 258533,
+    "n_targets": 258533,
+    "n_sentences": 14167,
+    "dropped_zero_subword": 0,
+    "dropped_examples": [],
+    "text_metadata_mismatches": 0,
+    "elapsed_s": 1333.9,
+    "n_subwords": {
+      "mean": 1.327567467209215,
+      "pct_single_subword": 74.93434107057901,
+      "p95": 3.0,
+      "max": 24,
+      "max_form": "http://europa.eu.int/comm/secretariat@general/sgb/state@aids"
+    }
+  },
+  "pl_pdb": {
+    "model_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+    "layer_index": 8,
+    "n_rows": 344824,
+    "n_targets": 344824,
+    "n_sentences": 22152,
+    "dropped_zero_subword": 0,
+    "dropped_examples": [],
+    "text_metadata_mismatches": 0,
+    "elapsed_s": 1011.3,
+    "n_subwords": {
+      "mean": 1.6000481405006612,
+      "pct_single_subword": 63.15569681924692,
+      "p95": 4.0,
+      "max": 17,
+      "max_form": "60546.fizjks@iftia.univ.gda.pl"
+    }
+  }
+}

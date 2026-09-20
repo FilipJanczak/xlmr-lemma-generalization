@@ -1,0 +1,98 @@
+{
+  "seed": 42,
+  "model_name": "xlm-roberta-base",
+  "layer_index": 8,
+  "readout": "last_subword",
+  "dtype": "fp32",
+  "max_length": 512,
+  "tokenizer": {
+    "fast": true,
+    "add_special_tokens": true,
+    "return_offsets_mapping": true
+  },
+  "treebanks": {
+    "UD_English-EWT": "en_ewt",
+    "UD_Italian-ISDT": "it_isdt",
+    "UD_Polish-PDB": "pl_pdb"
+  },
+  "split_usage": "pool_native_splits",
+  "tasks": {
+    "upos": {
+      "label": "UPOS",
+      "classes": "all_observed"
+    },
+    "number": {
+      "label": "Number",
+      "classes": [
+        "Sing",
+        "Plur"
+      ],
+      "upos_filter": "NOUN"
+    }
+  },
+  "token_eligibility": {
+    "exclude_mwt_component_words": true,
+    "exclude_mwt_range_tokens": true,
+    "exclude_empty_nodes": true,
+    "exclude_missing_lemma": true
+  },
+  "split": {
+    "test_fraction_target": 0.2,
+    "min_heldout_lemmas": 50,
+    "per_lemma_test_seen": [
+      0.5,
+      0.5
+    ],
+    "size_matching": "tight"
+  },
+  "standardization": "StandardScaler_per_condition_fit_on_train",
+  "probe": {
+    "estimator": "LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": "default",
+    "class_weight": null,
+    "random_state": 42
+  },
+  "control": {
+    "labels": "random_per_lemma_type_from_empirical_marginal",
+    "assignment": "once_globally"
+  },
+  "evaluation": {
+    "bootstrap_resamples": 10000,
+    "ci_percentiles": [
+      2.5,
+      97.5
+    ],
+    "mcnemar": "exact_if_b_plus_c_small_else_chi2_continuity",
+    "holm_correction": "reported_alongside_raw_p"
+  },
+  "error_analysis": {
+    "predictors": [
+      "n_subwords",
+      "char_length",
+      "log_freq",
+      "C(label)"
+    ],
+    "log_freq": "ln_form_frequency_pooled_treebank_add_one",
+    "zscore_continuous": true,
+    "scope": "per_language_task",
+    "report_vif": true
+  },
+  "feasibility": {
+    "min_heldout_lemmas": 50,
+    "min_test_instances": 200,
+    "min_per_class_number": 100,
+    "min_contributing_heldout_lemmas": 30
+  },
+  "extensions": {
+    "mlp_hidden_units": 256,
+    "layer_sweep": [
+      4,
+      8,
+      11
+    ]
+  }
+}

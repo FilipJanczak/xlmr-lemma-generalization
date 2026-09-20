@@ -1,0 +1,30 @@
+{
+  "ud_release": "r2.18",
+  "downloaded": "2026-07-22",
+  "treebanks": {
+    "UD_English-EWT": {
+      "commit": "b7711cce01cdd4f5fcc0a8199b8a50d951b16c0c",
+      "files": {
+        "en_ewt-ud-train.conllu": "d68e06122a702464c613076523d56740f047e5bbe89dd90ec32737e04d952143",
+        "en_ewt-ud-dev.conllu": "39239e0a60db3ae68f4b7036189f11b6692741d10ff8240dd91f74f2760d90f8",
+        "en_ewt-ud-test.conllu": "fa024f43dc5da3c5ac02563bc9bd0e974f46cbb1560823976a8f342a37dc494a"
+      }
+    },
+    "UD_Italian-ISDT": {
+      "commit": "4852011b996b9ec30d884a7a48e1118d0ce928f6",
+      "files": {
+        "it_isdt-ud-train.conllu": "7c3e32d7f296c877387a0c805c3ae8c471e2b5e8df97f5e3da810834b50566ab",
+        "it_isdt-ud-dev.conllu": "1bc7dda04c58a4d87e2e6607a0e612462b87e7da6dde56be610d3749521af744",
+        "it_isdt-ud-test.conllu": "cea8ca0e8d1ddf7ce509f10afff426d00e058982f49473e0744cd0ee477129e3"
+      }
+    },
+    "UD_Polish-PDB": {
+      "commit": "96706b419ad304b3c00482a4dcb5224ff7de9d61",
+      "files": {
+        "pl_pdb-ud-train.conllu": "077206c840aa7898d22e3a4cc09cde64dd46e7abc8f6daac1e002c87285115f3",
+        "pl_pdb-ud-dev.conllu": "6cefae9603315282aca4d70f394d965040e67b462993cc7b8903e543a18046b4",
+        "pl_pdb-ud-test.conllu": "867d178cd4194fff00894dd40098932f5e970a55229b1f9ea2b5620df06c7139"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+language,task,b_A_correct_B_wrong,c_A_wrong_B_correct,test,statistic,p_raw,p_holm
+en_ewt,upos,5019,395,chi2_continuity,3947.567233099372,0.0,0.0
+en_ewt,number,70,30,chi2_continuity,15.21,9.619268803520536e-05,9.619268803520536e-05
+it_isdt,upos,7392,254,chi2_continuity,6661.88451477897,0.0,0.0
+it_isdt,number,70,19,chi2_continuity,28.089887640449437,1.1580940422832024e-07,3.474282126849607e-07
+pl_pdb,upos,10168,352,chi2_continuity,9157.24572243346,0.0,0.0
+pl_pdb,number,113,49,chi2_continuity,24.5,7.430983723414125e-07,1.486196744682825e-06

@@ -1,0 +1,131 @@
+{
+  "en_ewt": {
+    "sentences": 16622,
+    "excluded": {
+      "mwt_range_token": 3327,
+      "empty_node": 43,
+      "mwt_component_word": 6656,
+      "missing_lemma": 176
+    },
+    "eligible_tokens": 247988,
+    "upos": {
+      "n_targets": 247988,
+      "excluded_missing_upos": 0,
+      "per_class_support": {
+        "NOUN": 42804,
+        "PUNCT": 29762,
+        "VERB": 27791,
+        "ADP": 21769,
+        "PRON": 21635,
+        "DET": 20094,
+        "ADJ": 16788,
+        "PROPN": 15996,
+        "AUX": 13541,
+        "ADV": 12562,
+        "CCONJ": 8203,
+        "PART": 5194,
+        "NUM": 5049,
+        "SCONJ": 4600,
+        "SYM": 940,
+        "INTJ": 931,
+        "X": 329
+      }
+    },
+    "number": {
+      "n_targets": 42552,
+      "nouns_total": 42804,
+      "nouns_excluded_no_or_other_number": 252,
+      "per_class_support": {
+        "Sing": 32474,
+        "Plur": 10078
+      },
+      "distinct_lemmas": 6036
+    }
+  },
+  "it_isdt": {
+    "sentences": 14167,
+    "excluded": {
+      "mwt_range_token": 19888,
+      "empty_node": 37,
+      "mwt_component_word": 39802,
+      "missing_lemma": 3
+    },
+    "eligible_tokens": 258533,
+    "upos": {
+      "n_targets": 258533,
+      "excluded_missing_upos": 0,
+      "per_class_support": {
+        "NOUN": 59478,
+        "PUNCT": 33875,
+        "DET": 29845,
+        "ADP": 26462,
+        "VERB": 24210,
+        "ADJ": 19775,
+        "PROPN": 14776,
+        "AUX": 11664,
+        "ADV": 11421,
+        "PRON": 10201,
+        "CCONJ": 8140,
+        "NUM": 5188,
+        "SCONJ": 3028,
+        "X": 277,
+        "SYM": 102,
+        "INTJ": 65,
+        "PART": 26
+      }
+    },
+    "number": {
+      "n_targets": 54926,
+      "nouns_total": 59478,
+      "nouns_excluded_no_or_other_number": 4552,
+      "per_class_support": {
+        "Sing": 38261,
+        "Plur": 16665
+      },
+      "distinct_lemmas": 6361
+    }
+  },
+  "pl_pdb": {
+    "sentences": 22152,
+    "excluded": {
+      "mwt_range_token": 2495,
+      "empty_node": 0,
+      "mwt_component_word": 5154,
+      "missing_lemma": 0
+    },
+    "eligible_tokens": 344824,
+    "upos": {
+      "n_targets": 344824,
+      "excluded_missing_upos": 0,
+      "per_class_support": {
+        "NOUN": 88617,
+        "PUNCT": 57873,
+        "VERB": 37304,
+        "ADP": 37155,
+        "ADJ": 35926,
+        "PRON": 16470,
+        "PROPN": 11956,
+        "ADV": 11434,
+        "PART": 10946,
+        "CCONJ": 10446,
+        "DET": 9347,
+        "SCONJ": 7449,
+        "AUX": 5948,
+        "NUM": 2633,
+        "X": 1122,
+        "INTJ": 177,
+        "SYM": 21
+      }
+    },
+    "number": {
+      "n_targets": 85726,
+      "nouns_total": 88617,
+      "nouns_excluded_no_or_other_number": 2891,
+      "per_class_support": {
+        "Sing": 63014,
+        "Plur": 22712
+      },
+      "distinct_lemmas": 11061
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "en_ewt_upos.parquet": "dd4a6141bf3bbb0fa800f9cc8068d805d7888b412ab6942b68cee3c2cc376acd",
+    "en_ewt_upos.split.json": "f7b285fa3af5f1f81eb9f5f901e486ca04c72b8d415f271d84697a595f9922f0",
+    "en_ewt_number.parquet": "090df8d675017767211abafc5ff4e867502708a34dd5ce04355a3cb4d6e97741",
+    "en_ewt_number.split.json": "b0a33725f85f7be59d8a0caa4d0d2e2c908ebd01f26361f119382819f73a867b",
+    "it_isdt_upos.parquet": "607c055906649829cf8584316761dc610394eef372ec32749cf6d8e8a5c375ae",
+    "it_isdt_upos.split.json": "7b8dfc072077f426e3f86d21ca6f185603ada51cb179f557e13b623143a27787",
+    "it_isdt_number.parquet": "fd42334904f17831c46e2e001aec26a4cc58d8868063b7ffa296d256003f5bdf",
+    "it_isdt_number.split.json": "14d6e7860575730a9d09f79a56b8b4fb99aa99e335b8bd74d5966f3789e85b93",
+    "pl_pdb_upos.parquet": "f54a397fe52732d680f7239af68ab5d17004ef8b82464d0e4648382b33f16d06",
+    "pl_pdb_upos.split.json": "0dc086fee267d587ee1f30222b1f814f172004bca68dfd04ed6e7e11a7db0ecc",
+    "pl_pdb_number.parquet": "83c1854ddda4a6cb97a42ea213e0598e996db7f1ff0c1ff4852dd859f962ce0e",
+    "pl_pdb_number.split.json": "994186b9667c651efbd15645d7af0c08c2e4919a6cec6f00ceb637cc14a3a1af"
+  }
+}

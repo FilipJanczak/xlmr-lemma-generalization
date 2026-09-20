@@ -1,0 +1,28 @@
+# Python bytecode and Jupyter autosaves
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment: recreate it from requirements.txt
+.venv/
+venv/
+
+# OS, Office and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.bak
+*.log
+
+# UD treebanks: download_ud.py fetches them from the pinned release and checks them against
+# data/ud/MANIFEST.json (release tag, commits, SHA-256), which stays in the repository
+data/ud/*.conllu
+
+# Frozen representations (about 7.8 GB for layers 4, 8 and 11): the notebook extracts them again
+# only when a probe has to be refitted. The marker files, which record the extraction, stay, and
+# so does the rest of cache/ (about 38 MB): cache/splits is the only copy of the split the thesis
+# reports, and with the inventories, token metadata, control labels and predictions it lets every
+# statistic be recomputed without the vectors.
+cache/representations/*.npy
